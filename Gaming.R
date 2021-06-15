@@ -1,7 +1,7 @@
 #Conducting data cleaning and Preprocessing to analyze voter behaviour in 18 states with respect to their
 #Votes for and against Ballot Types :1 - Gambling , 2- Wagering
 rm(list=ls()); gc()
-setwd('C:\\Users\\navee\\Dropbox (CSU Fullerton)\\ISDS 415\\Project 1')
+setwd('C:\\Users\\abc\\Project 1')
 
 dat = read.csv('Gaming_Data_Set_Project.csv', head=T, stringsAsFactors=F, na.strings='')
 matrix.na = is.na(dat) #create a matrix which shows TRUE if there's a missing value
